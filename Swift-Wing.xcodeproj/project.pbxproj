@@ -16,13 +16,15 @@
 		B32677B71E06EDE2000F1BE9 /* Swift_WingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32677B61E06EDE2000F1BE9 /* Swift_WingUITests.swift */; };
 		B373AA9B1E0701D3005621FA /* SWAPIDateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B373AA9A1E0701D3005621FA /* SWAPIDateStore.swift */; };
 		B373AAAB1E072B3C005621FA /* SWPeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = B373AAAA1E072B3C005621FA /* SWPeople.swift */; };
-		B373AAAD1E072E08005621FA /* SWPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = B373AAAC1E072E08005621FA /* SWPerson.swift */; };
 		B3E1439B1E19E760000252C5 /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E1439A1E19E760000252C5 /* PeopleViewController.swift */; };
-		B3EED5BE1E1881B000ECADE8 /* SWRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EED5BD1E1881B000ECADE8 /* SWRoot.swift */; };
 		B3F205B31E19869500B546ED /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F205B21E19869500B546ED /* RootViewController.swift */; };
 		B3F205B51E198A0100B546ED /* RootViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F205B41E198A0100B546ED /* RootViewViewModel.swift */; };
 		B3F205B91E198A8400B546ED /* RootTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F205B81E198A8400B546ED /* RootTableViewCell.swift */; };
 		B3F205BB1E198B6900B546ED /* RootTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3F205BA1E198B6900B546ED /* RootTableViewCell.xib */; };
+		E487A1121E2055ED00EC752E /* SWPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = E487A1101E2055ED00EC752E /* SWPerson.swift */; };
+		E487A1131E2055ED00EC752E /* SWRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = E487A1111E2055ED00EC752E /* SWRoot.swift */; };
+		E487A1161E20571B00EC752E /* PeopleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E487A1141E20571B00EC752E /* PeopleCollectionViewCell.swift */; };
+		E487A1171E20571B00EC752E /* PeopleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E487A1151E20571B00EC752E /* PeopleCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,13 +60,15 @@
 		B32677B81E06EDE2000F1BE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B373AA9A1E0701D3005621FA /* SWAPIDateStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SWAPIDateStore.swift; path = "SWAPI Wrapper/Data Store/SWAPIDateStore.swift"; sourceTree = "<group>"; };
 		B373AAAA1E072B3C005621FA /* SWPeople.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SWPeople.swift; path = "SWAPI Wrapper/SW Model Objects/SWPeople.swift"; sourceTree = "<group>"; };
-		B373AAAC1E072E08005621FA /* SWPerson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWPerson.swift; sourceTree = "<group>"; };
 		B3E1439A1E19E760000252C5 /* PeopleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PeopleViewController.swift; path = "Controllers/People View Controller/PeopleViewController.swift"; sourceTree = "<group>"; };
-		B3EED5BD1E1881B000ECADE8 /* SWRoot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWRoot.swift; sourceTree = "<group>"; };
 		B3F205B21E19869500B546ED /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RootViewController.swift; path = "Controllers/Root View Controller/RootViewController.swift"; sourceTree = "<group>"; };
 		B3F205B41E198A0100B546ED /* RootViewViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RootViewViewModel.swift; path = "Controllers/Root View Controller/View Model/RootViewViewModel.swift"; sourceTree = "<group>"; };
 		B3F205B81E198A8400B546ED /* RootTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RootTableViewCell.swift; path = "Controllers/Root View Controller/Table View Cell/RootTableViewCell.swift"; sourceTree = "<group>"; };
 		B3F205BA1E198B6900B546ED /* RootTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RootTableViewCell.xib; path = "Controllers/Root View Controller/Table View Cell/RootTableViewCell.xib"; sourceTree = "<group>"; };
+		E487A1101E2055ED00EC752E /* SWPerson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SWPerson.swift; path = "SWAPI Wrapper/SW Model Objects/SWPerson.swift"; sourceTree = "<group>"; };
+		E487A1111E2055ED00EC752E /* SWRoot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SWRoot.swift; path = "SWAPI Wrapper/SW Model Objects/SWRoot.swift"; sourceTree = "<group>"; };
+		E487A1141E20571B00EC752E /* PeopleCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PeopleCollectionViewCell.swift; path = "Controllers/People View Controller/Table View Cell/PeopleCollectionViewCell.swift"; sourceTree = "<group>"; };
+		E487A1151E20571B00EC752E /* PeopleCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PeopleCollectionViewCell.xib; path = "Controllers/People View Controller/Table View Cell/PeopleCollectionViewCell.xib"; sourceTree = "<group>"; };
 		F59984A7E5DCB8F843503B12 /* Pods-Swift-Wing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift-Wing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swift-Wing/Pods-Swift-Wing.debug.xcconfig"; sourceTree = "<group>"; };
 		FB694050D3F30413671ADE60 /* Pods-Swift-Wing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift-Wing.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swift-Wing/Pods-Swift-Wing.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -129,6 +133,7 @@
 		B32677951E06EDE2000F1BE9 /* Swift-Wing */ = {
 			isa = PBXGroup;
 			children = (
+				B3EED5BF1E18A2C900ECADE8 /* Controllers */,
 				B373AA951E06FBCB005621FA /* SWAPI Wrapper */,
 				B32677961E06EDE2000F1BE9 /* AppDelegate.swift */,
 				B326779A1E06EDE2000F1BE9 /* Main.storyboard */,
@@ -160,7 +165,6 @@
 		B373AA951E06FBCB005621FA /* SWAPI Wrapper */ = {
 			isa = PBXGroup;
 			children = (
-				B3EED5BF1E18A2C900ECADE8 /* Controllers */,
 				B373AA991E06FC06005621FA /* SW Model Objets */,
 				B373AA981E06FBFA005621FA /* Data Store */,
 			);
@@ -179,8 +183,8 @@
 			isa = PBXGroup;
 			children = (
 				B373AAAA1E072B3C005621FA /* SWPeople.swift */,
-				B373AAAC1E072E08005621FA /* SWPerson.swift */,
-				B3EED5BD1E1881B000ECADE8 /* SWRoot.swift */,
+				E487A1101E2055ED00EC752E /* SWPerson.swift */,
+				E487A1111E2055ED00EC752E /* SWRoot.swift */,
 			);
 			name = "SW Model Objets";
 			sourceTree = "<group>";
@@ -195,6 +199,8 @@
 		B3E1439D1E19EE39000252C5 /* CollectionViewCell */ = {
 			isa = PBXGroup;
 			children = (
+				E487A1141E20571B00EC752E /* PeopleCollectionViewCell.swift */,
+				E487A1151E20571B00EC752E /* PeopleCollectionViewCell.xib */,
 			);
 			name = CollectionViewCell;
 			sourceTree = "<group>";
@@ -370,6 +376,7 @@
 				B3F205BB1E198B6900B546ED /* RootTableViewCell.xib in Resources */,
 				B326779E1E06EDE2000F1BE9 /* Assets.xcassets in Resources */,
 				B326779C1E06EDE2000F1BE9 /* Main.storyboard in Resources */,
+				E487A1171E20571B00EC752E /* PeopleCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,15 +449,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B373AAAD1E072E08005621FA /* SWPerson.swift in Sources */,
+				E487A1131E2055ED00EC752E /* SWRoot.swift in Sources */,
 				B3F205B91E198A8400B546ED /* RootTableViewCell.swift in Sources */,
-				B3EED5BE1E1881B000ECADE8 /* SWRoot.swift in Sources */,
 				B3F205B31E19869500B546ED /* RootViewController.swift in Sources */,
 				B373AA9B1E0701D3005621FA /* SWAPIDateStore.swift in Sources */,
 				B3E1439B1E19E760000252C5 /* PeopleViewController.swift in Sources */,
 				B3F205B51E198A0100B546ED /* RootViewViewModel.swift in Sources */,
+				E487A1121E2055ED00EC752E /* SWPerson.swift in Sources */,
 				B373AAAB1E072B3C005621FA /* SWPeople.swift in Sources */,
 				B32677971E06EDE2000F1BE9 /* AppDelegate.swift in Sources */,
+				E487A1161E20571B00EC752E /* PeopleCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

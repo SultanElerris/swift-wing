@@ -31,7 +31,6 @@ struct SWPeople {
         }
         results = tempArray
     }
-    
 }
 
 private struct PeopleKeys {
