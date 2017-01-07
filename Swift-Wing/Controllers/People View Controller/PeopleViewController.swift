@@ -38,3 +38,11 @@ extension PeopleViewController: UICollectionViewDelegate, UICollectionViewDataSo
         return cell
     }
 }
+
+extension PeopleViewController: UICollectionViewDelegateFlowLayout {
+    func collectionView(_ collectionView: UICollectionView,
+                        layout collectionViewLayout: UICollectionViewLayout,
+                        sizeForItemAt indexPath: IndexPath) -> CGSize {
+       return CGSize(width: view.bounds.width, height: 80);
+    }
+}

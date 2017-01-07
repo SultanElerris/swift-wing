@@ -12,10 +12,10 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PeopleCollectionViewCell" id="Agw-e9-xa5" customClass="PeopleCollectionViewCell" customModule="Swift_Wing" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="386" height="79"/>
-            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <rect key="frame" x="0.0" y="0.0" width="375" height="79"/>
+            <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                <rect key="frame" x="0.0" y="0.0" width="386" height="79"/>
+                <rect key="frame" x="0.0" y="0.0" width="375" height="79"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tBS-Cm-tfa">
@@ -27,7 +27,7 @@
                     </label>
                 </subviews>
             </view>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <color key="backgroundColor" red="0.84210190034236687" green="0.83804415884055206" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
             <size key="customSize" width="386" height="79"/>
             <connections>
                 <outlet property="nameLabel" destination="tBS-Cm-tfa" id="tI0-l6-aSV"/>
