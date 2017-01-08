@@ -33,7 +33,7 @@ struct SWAPIDataStore {
     
     func getDataForPeople(serviceURL: String, completion: @escaping ((SWPeople?, Bool) -> Void)) {
 
-        Alamofire.request("https://swapi.co/api/people/?format=json").responseJSON { response in
+        Alamofire.request(serviceURL).responseJSON { response in
             
             if let JSON = response.result.value {
             let peopleObject = SWPeople.init(dictionary: JSON as! [String : AnyObject])
