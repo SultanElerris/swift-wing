@@ -15,5 +15,11 @@ class PeopleCollectionViewCell: UICollectionViewCell {
 static let reuseIdentifier = "PeopleCollectionViewCell"
 
     @IBOutlet weak var nameLabel: UILabel!
-
+    @IBOutlet weak var hairColorLabel: UILabel!
+    @IBOutlet weak var massLabel: UILabel!
+    @IBOutlet weak var heightLabel: UILabel!
+    @IBOutlet weak var birthYearLabel: UILabel!
+    @IBOutlet weak var eyeColorLabel: UILabel!
+    @IBOutlet weak var skinColorLabel: UILabel!
+    @IBOutlet weak var genderLabel: UILabel!
 }

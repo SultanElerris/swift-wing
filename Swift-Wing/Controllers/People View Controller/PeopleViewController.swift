@@ -53,7 +53,13 @@ extension PeopleViewController: UICollectionViewDelegate, UICollectionViewDataSo
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: PeopleCollectionViewCell.reuseIdentifier, for: indexPath) as! PeopleCollectionViewCell
         cell.nameLabel.text = peopleArray[indexPath.row].name
-        
+        cell.heightLabel.text = peopleArray[indexPath.row].height
+        cell.massLabel.text = peopleArray[indexPath.row].mass
+        cell.hairColorLabel.text = peopleArray[indexPath.row].hairColor
+        cell.birthYearLabel.text = peopleArray[indexPath.row].birthYear
+        cell.skinColorLabel.text = peopleArray[indexPath.row].skinColor
+        cell.eyeColorLabel.text = peopleArray[indexPath.row].eyeColor
+        cell.genderLabel.text = peopleArray[indexPath.row].gender
         
         if indexPath.row == self.peopleArray.count - 1 { // last cell
             pageNumber = pageNumber + 1
